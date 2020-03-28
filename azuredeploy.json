@@ -8,7 +8,7 @@
         "description": "User name for the Virtual Machine."
       }
     },
-    "_vmname": {
+    "vmname": {
       "type": "string",
       "metadata": {
         "description": "Name der VM."
@@ -50,7 +50,7 @@
     }
   },
   "variables": {
-    "resourcePrefix": "[concat(parameters('_vmname')",
+    "resourcePrefix": "[concat(parameters('vmname')",
     "storageAccountName": "[concat(variables('resourcePrefix'), uniquestring(resourceGroup().id))]",
     "OSDiskName": "[concat(variables('resourcePrefix'), 'OSDisk')]",
     "nicName": "[concat(variables('resourcePrefix'), 'VMNic')]",
