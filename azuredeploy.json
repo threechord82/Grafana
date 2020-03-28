@@ -44,7 +44,7 @@
     }
   },
   "variables": {
-    "resourcePrefix": "tig",
+    "resourcePrefix": "[concat(parameters('_vmname')",
     "storageAccountName": "[concat(variables('resourcePrefix'), uniquestring(resourceGroup().id))]",
     "OSDiskName": "[concat(variables('resourcePrefix'), 'OSDisk')]",
     "nicName": "[concat(variables('resourcePrefix'), 'VMNic')]",
