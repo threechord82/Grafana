@@ -8,6 +8,12 @@
         "description": "User name for the Virtual Machine."
       }
     },
+    "nameofvm": {
+      "type": "string",
+      "metadata": {
+        "description": "Name der VM'"
+      }
+    },
     "sshPublicKey": {
       "type": "string",
       "metadata": {
@@ -44,7 +50,7 @@
     }
   },
   "variables": {
-    "resourcePrefix": "tig",
+    "resourcePrefix": "[concat(variables('nameofvm'), uniquestring(resourceGroup().id))]",
     "storageAccountName": "[concat(variables('resourcePrefix'), uniquestring(resourceGroup().id))]",
     "OSDiskName": "[concat(variables('resourcePrefix'), 'OSDisk')]",
     "nicName": "[concat(variables('resourcePrefix'), 'VMNic')]",
