@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
      "vmname": {
-      "value": "GEN-UNIQUE2"
+      "value": "GEN-UNIQUE"
     },
     "adminUsername": {
       "value": "GEN-UNIQUE"
