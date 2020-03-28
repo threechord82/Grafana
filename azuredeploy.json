@@ -50,7 +50,7 @@
     }
   },
   "variables": {
-    "resourcePrefix": "[concat(variables('nameofvm'), uniquestring(resourceGroup().id))]",
+    "nameofvm": "[concat(variables('nameofvm'), uniquestring(resourceGroup().id))]",
     "storageAccountName": "[concat(variables('resourcePrefix'), uniquestring(resourceGroup().id))]",
     "OSDiskName": "[concat(variables('resourcePrefix'), 'OSDisk')]",
     "nicName": "[concat(variables('resourcePrefix'), 'VMNic')]",
