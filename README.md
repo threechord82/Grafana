@@ -1,9 +1,9 @@
 # Telegraf-influxDB-Grafana in Azure 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthreechord82%2FGrafana%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthreechord82%2FGrafana%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/threechord82/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fthreechord82%2FGrafana%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fthreechord82%2FGrafana%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/threechord82/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a>
 
