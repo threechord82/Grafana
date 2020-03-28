@@ -1,13 +1,5 @@
 # Telegraf-influxDB-Grafana in Azure 
 
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/PublicLastTestDate.svg" />&nbsp;
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/PublicDeployment.svg" />&nbsp;
-
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/FairfaxLastTestDate.svg" />&nbsp;
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/FairfaxDeployment.svg" />&nbsp;
-
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/BestPracticeResult.svg" />&nbsp;
-<IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-Telegraf-InfluxDB-Grafana/CredScanResult.svg" />&nbsp;
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthreechord82%2FGrafana%2Fazuredeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/threechord82/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
