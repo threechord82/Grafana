@@ -7,10 +7,10 @@ volumes:
 services:
   grafana:
     image: grafana/grafana
+    restart: always
     container_name: grafana
     depends_on:
       - influxdb
-    restart: always
     ports:
       - 3000:3000
     volumes:
@@ -28,8 +28,8 @@ services:
 
   influxdb:
     image: tutum/influxdb
-    container_name: influxdb
     restart: always
+    container_name: influxdb
     ports:
       - "8083:8083"
       - "8086:8086"
@@ -41,10 +41,10 @@ services:
      
   telegraf:
     image: telegraf:latest
+    restart: always
     container_name: telegraf
     links:
       - influxdb
-    restart: always
     environment:
       - HOST_ETC=/rootfs/etc
       - HOST_SYS=/rootfs/sys
